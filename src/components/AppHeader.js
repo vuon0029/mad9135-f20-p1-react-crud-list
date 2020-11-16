@@ -11,7 +11,7 @@ function AppHeader(){
                 <h2 className="header">Best Card Games</h2>
             </NavLink>
             <NavLink to="/new-item">
-                <div className="newItem"><span class="material-icons md-48">add</span></div>
+                <div className="newItem"><span className="material-icons md-48">add</span></div>
             </NavLink>
         </div>
     )
