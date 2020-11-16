@@ -35,15 +35,15 @@ function App() {
             <form  className="newItem">
               <div className="newItemInfo">
               <div className="newInput">
-                <span class="material-icons md-36">videogame_asset</span>
+                <span className="material-icons md-36">videogame_asset</span>
                 <input type="text" name="newItemName" placeholder="Name" id="name"></input>
               </div>
               <div className="newInput">
-                <span class="material-icons md-36">copyright</span>
+                <span className="material-icons md-36">copyright</span>
                 <input type="text" name="newItemAuthor" placeholder="Author" id="author"></input>
               </div>
               <div className="newInput">
-                <span class="material-icons md-36">http</span>
+                <span className="material-icons md-36">http</span>
                 <input type="text" name="newItemShop" placeholder="Website" id="shop"></input>
               </div>
 
