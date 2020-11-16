@@ -179,9 +179,11 @@ function ListView(){
         <li className="item" key={item.cuid} id={item.id} cuid={item.cuid}>
             
             <div className="itemInfo">
-            <div className="itemName">{item.name}</div>
-            <div className="itemAuthor">by <div className="author">{item.author}</div></div>
-            <a className="itemShop" href={item.shop} rel="noreferrer" target="_blank">Buy it</a>
+              <div className="itemName">{item.name}</div>
+              <div className="itemInfo2">
+                <div className="author">by {item.author}</div>
+                <a className="itemShop" href={item.shop} rel="noreferrer" target="_blank">Buy it</a>
+              </div>
             </div>
             <div className="itemSettings">
             <NavLink to={"/edit/"+item.cuid}>
