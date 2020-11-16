@@ -48,6 +48,10 @@
   flex-flow: column wrap;
   align-items: flex-start;
 }
+.itemShop{
+  margin-top: 10px;
+  color: #014ba0
+}
 .itemSettings{
   display: flex;
   flex-flow: column wrap;
